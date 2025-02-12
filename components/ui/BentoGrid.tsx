@@ -152,7 +152,7 @@ export const BentoGridItem = ({
             <Player
               autoplay={copied}
               loop={copied}
-              src={animationData}
+              animationData={animationData} // FIX: Use `animationData` instead of `src`
               style={{ height: "100px", width: "100px" }}
             />
           </div>
